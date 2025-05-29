@@ -1,4 +1,19 @@
-# Ignora as pastas
+# Ignora as pastas especifica
 env/
 arquivolixo/
+
+#Arquivo em qualquer nivel de pasta
+**/ModeloDoc.docx
+
+# ignorar arquivos .txt da pasta utils
+src/utils/*.txt
+
+
+
+
+
+
+
+
+
 
