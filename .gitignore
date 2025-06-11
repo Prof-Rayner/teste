@@ -9,6 +9,14 @@ arquivolixo/
 src/utils/*.txt
 
 
+# bloquear variaveis de ambiente
+src/utils/config.properties
+
+# bloquear qualquer arquivo 'EXEMPLO' que seja .txt
+**/exemplo*.txt
+
+# bloquear qualquer arquivo .HTML
+**/*.html
 
 
 
