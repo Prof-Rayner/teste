@@ -18,10 +18,3 @@ src/utils/config.properties
 # bloquear qualquer arquivo .HTML
 **/*.html
 
-
-
-
-
-
-
-
