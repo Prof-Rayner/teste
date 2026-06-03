@@ -31,3 +31,17 @@ git branch
 
 # renomear a branch atual
 git branch -m <novo_nome>
+
+# criar uma nova branch
+git branch <nome_da_branch>
+
+# deletar uma branch
+git branch -d <nome_da_branch>
+
+# trocar de branch
+git switch <nome_da_branch>
+
+
+
+
+
