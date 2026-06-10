@@ -16,8 +16,13 @@ git rm --cached <nome_do_arquivo>
 # restaurar um arquivo
 git restore <nome_do_arquivo>
 
+
 # salvar o estado do repositório
 git commit -m "sua msg"
+
+# add e salvar , commitar os arquivos monitorados(track)
+git commit -am "sua msg"
+
 
 # mostrar o historico de commits
 git log
