@@ -47,6 +47,9 @@ git branch <nome_da_branch>
 # criar branch e trocar
 git checkout -b <nome_da_branch>
 
+# mover o HEAD para um commit
+git checkout <hash_do_commit>
+
 # deletar uma branch
 git branch -d <nome_da_branch>
 
