@@ -7,6 +7,9 @@ git status
 # adicionar um arquivo em stage
 git add <nome_do_arquivo>
 
+# adicionar todos os arquivos da pasta
+git add .
+
 # remover arquivo do stage
 git rm --cached <nome_do_arquivo>
 
@@ -19,6 +22,7 @@ git commit -m "sua msg"
 # mostrar o historico de commits
 git log
 git log --oneline
+git log --oneline -n 5
 
 # mostrar as alterações no repositório
 git diff
