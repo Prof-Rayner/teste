@@ -50,6 +50,10 @@ git checkout -b <nome_da_branch>
 # deletar uma branch
 git branch -d <nome_da_branch>
 
+# deletar forçadamente uma branch
+git branch -D <nome_da_branch>
+
+
 # trocar de branch
 git switch <nome_da_branch>
 
