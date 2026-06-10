@@ -39,6 +39,9 @@ git branch -m <novo_nome>
 # criar uma nova branch
 git branch <nome_da_branch>
 
+# criar branch e trocar
+git checkout -b <nome_da_branch>
+
 # deletar uma branch
 git branch -d <nome_da_branch>
 
