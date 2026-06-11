@@ -25,7 +25,7 @@ git commit -am "sua msg"
 
 
 # mostrar o historico de commits
-git log #rubin
+git log #gabriel
 git log --oneline
 git log --oneline -n 5
 
