@@ -1,0 +1,13 @@
+# ignorando arquivo especifico
+planilha1.xlsx
+
+# ignorar um diretório
+env/
+
+# ignore os tipos
+/*.png
+
+# ignorar nomes similares
+# * representa qualquer coisa
+img*.xlsx
+
