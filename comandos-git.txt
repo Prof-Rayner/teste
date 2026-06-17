@@ -16,13 +16,14 @@ git rm --cached <nome_do_arquivo>
 # restaurar um arquivo
 git restore <nome_do_arquivo>
 
-
 # salvar o estado do repositório
 git commit -m "sua msg"
 
 # add e salvar , commitar os arquivos monitorados(track)
 git commit -am "sua msg"
 
+# commitar e substituir o ultimo commit
+git commit -m "sua msg" --amend
 
 # mostrar o historico de commits
 git log
@@ -66,6 +67,10 @@ git merge <nome_da_branch>
 # mostrar autores de um arquivo
 git blame <nome_do_arquivo>
 
+# voltar para um commit anterior (LOCAL)
+git reset <hash_do_commit>
 
+# desfazer um commit (REMOTO)
+git revert <hash_do_commit>
 
 
