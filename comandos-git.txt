@@ -1,3 +1,4 @@
+# alterações feita pela web
 # inicializar um repositório GIT
 git init .
 
