@@ -1,6 +1,25 @@
 # inicializar um repositório GIT
 git init .
 
+# clonar um repositório remoto
+git clone <url>
+
+# adicionar endereço remoto em um repositório local
+git remote add <url>
+
+# verificar endereço remoto
+git remote -v
+
+# enviar alterações e definir a upstream(remoto) com a branch local
+git push -u origin <nome_da_branch>
+
+# enviar alterações para o github
+git push 
+git push origin <nome_da_branch>
+
+# enviar alterações de uma branch local para uma branch remota
+git push origin <nome_da_branch_local>:<nome_da_branch_remoto>
+
 # mostrar o estado atual do repositório
 git status
 
