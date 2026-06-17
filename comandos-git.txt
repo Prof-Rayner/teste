@@ -25,12 +25,12 @@ git commit -am "sua msg"
 
 
 # mostrar o historico de commits
-git log #igor
+git log
 git log --oneline
 git log --oneline -n 5
 
 # mostrar as alterações no repositório
-git diff #igor
+git diff
 
 # exibir alterações de um commit
 git show <hash>
