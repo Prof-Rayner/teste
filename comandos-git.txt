@@ -94,4 +94,10 @@ git reset <hash_do_commit>
 # desfazer um commit (REMOTO)
 git revert <hash_do_commit>
 
+# baixar as atualizações do repositório remoto, sem mesclar
+git fetch <nome_da_branch>
+
+# baixar as atualizações do repositório remoto e mesclar
+git pull <nome_da_branch>
+
 
