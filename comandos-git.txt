@@ -1,6 +1,6 @@
 # inicializar um repositório GIT
 git init .
-
+--------------------------------------------------
 # mostrar o estado atual do repositório
 git status
 
